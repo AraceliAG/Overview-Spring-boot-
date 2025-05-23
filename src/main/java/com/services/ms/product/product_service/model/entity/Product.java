@@ -4,10 +4,12 @@ import lombok.Getter;
 import lombok.Setter;
 import java.math.BigDecimal;
 
-@Entity
-@Table(name = "products")
 @Getter
 @Setter
+@Entity
+@Table(name = "products")
+
+
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
